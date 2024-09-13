@@ -1,0 +1,100 @@
+/* headers, footers, and navigation */  
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 3px 3px 12px black;
+    flex: 10;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+  
+header img {
+    height: 100px;
+    padding-top: 30px;
+}
+  
+nav {
+    height: 70px;
+    flex: 75%;
+    display: flex;
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+}
+  
+nav ul {
+    padding: 0;
+    flex: 10;
+    display: flex;
+}
+  
+nav a, nav span {
+    display: inline-block;
+    font-size: 2rem;
+    color: black;
+    height: 5rem;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* main, article, images, asides */
+main {
+    display: flex;
+    padding: 30px;
+}
+
+article {
+    flex: 6;
+}
+
+aside {
+    flex: 2;
+    padding: 20%;
+    margin-left: 1%;
+}
+
+aside a {
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+aside img {
+    max-width: 100%;
+}
+
+/* Background colors */
+main, header, nav, article, footer, aside {
+    background-color: rgb(13, 231, 13);
+    padding: 1%;
+}
+
+body > * {
+    background-color: rgba(59, 232, 59, 0.726);
+}
+
+html {
+    background-color: grey;
+}
