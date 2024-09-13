@@ -2,23 +2,12 @@
 
 ## Overview
 
-TODO: Write a project description
+This project was created to practice recreating a fake birdwatching site utilizing css and
+html concepts. To run the program, simply install live preview and open the site, or open
+the link in a seperate browser.
 
 ## Sources and Credits
 
-TODO: You must credit the sources and authors of any code, libraries, or other
-assets you use in your project. If you leave this section blank, your project
-will be considered in violation of the Academic Honesty policy unless you truly
-created everything from scratch with no outside help. If you need to use a
-source that you cannot credit (e.g. a classmate's work), you must get explicit
-permission from your instructor.
-
-A simple bulleted list below is sufficient. For example:
-
-- Bootstrap: https://getbootstrap.com/
-- jQuery: https://jquery.com/
-- Background image: https://unsplash.com/photos/...
-- Sound effects: https://freesound.org/people/...
-- Icons: https://fontawesome.com/
-- Fonts: https://fonts.google.com/
-- etc.
+- CSS Tutorial: https://www.w3schools.com/css/default.asp
+- CSS Flexbox: https://www.w3schools.com/css/css3_flexbox.asp
+- More flexbox: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox
